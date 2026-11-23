@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return {"message": "Application DevOps opérationnelle"}
+    return {"message": "Nouvelle version de mon application"}
 #juste pour tester 
 @app.route("/health")
 def health():
